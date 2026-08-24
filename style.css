@@ -1,0 +1,50 @@
+body {
+    background-color: tan;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+main {
+    display: flex;
+    gap:25px;
+    margin-bottom: 100px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+color: brown;
+}
+
+ul {
+    font-style:italic;
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+}
+
+li {
+    background-color: brown;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.testimonial {
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    width:100%;
+}
